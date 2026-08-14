@@ -20,8 +20,7 @@ Le script principal est :
 
 Rendu rapide :
 
-```bash
-manim -pql stenope_lentille_v7.py StenopeVersLentilleV7
+`manim -pql stenope_lentille_v7.py StenopeVersLentilleV7
 
 Rendu haute définition :
 
