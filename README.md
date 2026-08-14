@@ -22,3 +22,33 @@ Rendu rapide :
 
 ```bash
 manim -pql stenope_lentille_v7.py StenopeVersLentilleV7
+
+Rendu haute définition :
+
+manim -pqh stenope_lentille_v7.py StenopeVersLentilleV7
+Installation
+
+L'animation nécessite Python et Manim Community.
+
+Dans un environnement virtuel :
+
+python3 -m venv manim-env
+source manim-env/bin/activate
+pip install manim
+
+Sous Linux, certaines dépendances système de Cairo et Pango peuvent également être nécessaires.
+
+Principe de construction
+
+Le script ne repose pas sur une animation pré-dessinée. Les rayons et pinceaux lumineux sont construits géométriquement à partir de la position de l'objet, de l'ouverture, de la lentille et de l'écran.
+
+Dans le modèle de lentille utilisé ici, la lentille est supposée idéale et stigmatique : tous les rayons issus d'un même point-objet et traversant la lentille convergent vers le même point-image.
+
+Autrice
+
+Cécile de Hosson
+Université Paris Cité — Laboratoire de Didactique André Revuz
+
+Licence
+
+Licence à préciser.
